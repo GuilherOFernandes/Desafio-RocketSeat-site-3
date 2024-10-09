@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --body-bg-color: #faf7fd;
+  --purple: #bb99dd;
+}
+
+.roxo {
+  color: var(--purple);
+}
+
+.background {
+  color: var(--body-bg-color);
+}
+
+* {
+  margin: 0px auto;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 200px;
+  height: 200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.social-bg {
+  color: var(--body-bg-color);
+  margin-top: 100px;
+}
+
+.imagem {
+  padding: 4px;
+  border: 2px solid var(--purple);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.instagram {
+  color: var(--purple);
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container li {
+  width: 330px;
+  padding: 14px 10px;
+  margin: 10px auto;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  border: 2px solid var(--purple);
+  cursor: pointer;
+}
+
+.container li p {
+  color: var(--purple);
+}
+
+.container li:first-child {
+  margin-top: 40px;
+}
+
+.redes-sociais {
+  display: flex;
+  flex-wrap: wrap;
+  width: max-content;
+  gap: 38.5px;
+  margin-top: -35px;
+}
